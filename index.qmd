@@ -5,15 +5,14 @@ resources:
   - energy_ivem_map.html
 ---
 
+
 <style>
-/* Widen only horizontally */
+/* Widen content column only (no vertical changes) */
 .page-columns {
-  max-width: 100% !important;
+  grid-template-columns: minmax(1rem, 1fr) minmax(0, 1600px) minmax(1rem, 1fr) !important;
 }
 .content {
-  max-width: 100% !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+  max-width: none !important;
 }
 </style>
 
