@@ -5,6 +5,17 @@ resources:
   - energy_ivem_map.html
 ---
 
+<style>
+/* Make Quarto page full-width */
+.page-columns {
+  max-width: 100% !important;
+}
+.content {
+  max-width: 100% !important;
+}
+</style>
+
+
 ## Interactive Map
 
-<iframe src="./energy_ivem_map.html" width="100%" height="80vh" style="border:none;"></iframe>
+<iframe src="./energy_ivem_map.html" width="100%" height="1000" style="border:none;"></iframe>
